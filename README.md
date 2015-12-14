@@ -15,6 +15,10 @@ To set up you need to run:
 
 Configure your DB by adding appropriate database.yml file in config folder
 
+Setup DB using:
+  - rake db:create
+  - rake db:migrate
+
 To start application server
 After the successfull bundle you need to run:
   - rails s
